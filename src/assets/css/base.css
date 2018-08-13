@@ -1,0 +1,138 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+input,
+button,
+textarea {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+input,
+button,
+textarea {
+  outline: none;
+  border: 0;
+}
+textarea {
+  resize: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+div {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#app .student-list .van-icon,
+#app .teacher-reviews .van-icon,
+#app .evaluate .van-icon,
+#app .course-details .van-icon,
+#app .changePersonalInformation .van-icon,
+#app .changepassword .van-icon,
+#app .message .van-icon,
+#app .school-news .van-icon,
+#app .campus-information .van-icon,
+#app .selected-course .van-icon,
+#app .curricula-variable .van-icon,
+#app .course-classification .van-icon,
+#app .application-record .van-icon,
+#app .student-list .van-nav-bar__text,
+#app .teacher-reviews .van-nav-bar__text,
+#app .evaluate .van-nav-bar__text,
+#app .course-details .van-nav-bar__text,
+#app .changePersonalInformation .van-nav-bar__text,
+#app .changepassword .van-nav-bar__text,
+#app .message .van-nav-bar__text,
+#app .school-news .van-nav-bar__text,
+#app .campus-information .van-nav-bar__text,
+#app .selected-course .van-nav-bar__text,
+#app .curricula-variable .van-nav-bar__text,
+#app .course-classification .van-nav-bar__text,
+#app .application-record .van-nav-bar__text {
+  color: #4a4a4a;
+  font-size: 16px;
+}
+#app [v-cloak] {
+  display: none;
+}
+#app .growth-record .van-icon,
+#app .growth-record .van-nav-bar__text {
+  color: #fff;
+  font-size: 16px;
+}
+#app .van-icon {
+  font-weight: 700;
+}
+#app .van-tabs__nav--card {
+  border: 1px solid #6692ff;
+  border-right: 0;
+}
+#app .van-tabs__nav--card .van-tab {
+  border-right: 1px solid #6692ff!important;
+  color: #6692ff;
+}
+#app .van-tabs__nav--card .van-tab.van-tab--active {
+  background-color: #6692ff;
+}
+#app .van-tab.van-tab--active {
+  color: #fff;
+}
+#app .van-hairline--bottom::after {
+  border: 0;
+}
+#app .van-nav-bar__text:active {
+  background-color: rgba(255, 255, 255, 0);
+}
+#app .van-cell {
+  padding: 0;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4.6rem;
+  height: 0.9rem;
+  border-radius: 0.46rem;
+  font-size: 20px;
+  background-color: #6692ff;
+  color: #fff;
+  -webkit-box-shadow: #545454 0px 0px 5px;
+  -moz-box-shadow: #545454 0px 0px 5px;
+  box-shadow: #545454 0px 0px 5px;
+}
+.occupation input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.occupation span {
+  display: inline-block;
+  margin: 0 10px;
+  color: #454545;
+}

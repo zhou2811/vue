@@ -1,0 +1,36 @@
+.evaluate {
+  height: 100%;
+  background-color: #edf0f5;
+}
+.evaluate .header {
+  background-color: #f2f2f2;
+}
+.evaluate .iconfont {
+  color: #f3e2cf;
+  margin-right: 4px;
+}
+.evaluate .main {
+  padding: 0.1rem;
+}
+.evaluate .main .content {
+  height: 1.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  padding: 0.4rem 0.24rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 0.15rem;
+}
+.evaluate .main .content .content-top h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.evaluate .main .content .content-bottom {
+  margin-top: 0.1rem;
+}
+.evaluate .main .content .content-bottom span .num {
+  font-style: normal;
+  color: #1d87f4;
+}

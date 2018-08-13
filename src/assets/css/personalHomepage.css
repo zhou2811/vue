@@ -1,0 +1,56 @@
+.personal-homepage {
+  background-color: #f0f0f0;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+.personal-homepage .van-icon,
+.personal-homepage .van-nav-bar__text {
+  color: #fff!important;
+  font-size: 16px;
+}
+.personal-homepage .main {
+  position: relative;
+  background: url('../images/banner-3.png') center no-repeat;
+  background-size: cover;
+  height: 4.4rem;
+}
+.personal-homepage .main .header {
+  background-color: rgba(0, 0, 0, 0);
+}
+.personal-homepage .main .figure {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -46%);
+}
+.personal-homepage .main .figure img {
+  display: block;
+  width: 1.88rem;
+  border-radius: 50%;
+}
+.personal-homepage .main .figure span {
+  color: #fff;
+  font-size: 0.32rem;
+}
+.personal-homepage .content {
+  padding: 0.3rem;
+}
+.personal-homepage .content h3 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 0.2rem;
+}
+.personal-homepage .content h3,
+.personal-homepage .content p {
+  color: #444444;
+}
+.personal-homepage .content p {
+  font-size: 12px;
+  text-indent: 2em;
+  line-height: 0.44rem;
+}
+.personal-homepage .btn {
+  bottom: 0.3rem;
+}

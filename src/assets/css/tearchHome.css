@@ -1,0 +1,45 @@
+.tearchHome .head {
+  padding-left: 0.27rem;
+}
+.tearchHome .head img {
+  width: 0.46rem;
+}
+.tearchHome .banner {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 3.4rem;
+  background: url(../../assets/images/banner.png) center no-repeat;
+  background-size: cover;
+}
+.tearchHome .banner h2 {
+  font-size: 32px;
+  font-weight: 100;
+}
+.tearchHome .banner p {
+  margin-top: 0.2rem;
+  font-size: 16px;
+  font-weight: 200;
+}
+.tearchHome .nav {
+  margin-top: 0.7rem;
+}
+.tearchHome .nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.tearchHome .nav ul li {
+  text-align: center;
+  flex: 1;
+}
+.tearchHome .nav ul li img {
+  width: 1.1rem;
+  height: 1rem;
+}
+.tearchHome .nav ul li p {
+  margin-top: 4px;
+  color: #787878;
+  font-size: 16px;
+}

@@ -1,0 +1,65 @@
+.application {
+  position: relative;
+  height: 100%;
+  background-color: #edf0f5;
+}
+.application .van-icon {
+  color: #4a4a4a!important;
+}
+.application .van-nav-bar__text {
+  color: #595959!important;
+}
+.application .van-tabs__nav--card {
+  border: 1px solid #6692ff;
+  border-right: 0;
+}
+.application .van-tabs__nav--card .van-tab {
+  border-right: 1px solid #6692ff!important;
+  color: #6692ff;
+}
+.application .van-tabs__nav--card .van-tab.van-tab--active {
+  background-color: #6692ff;
+}
+.application .van-tab.van-tab--active {
+  color: #fff;
+}
+.application .btn {
+  bottom: 0.5rem;
+}
+.application .content-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.application .content-main img {
+  width: 1.68rem;
+  height: 2rem;
+}
+.application .content-main p {
+  font-size: 0.24rem;
+  color: #3b4568;
+  text-align: center;
+}
+.application .tabs {
+  padding: 10px 0;
+  background-color: #fff;
+  margin-bottom: 0.16rem;
+}
+.application .content {
+  margin-top: 0.2rem;
+  padding: 0.32rem;
+  background-color: #fff;
+}
+.application .content .iconfont {
+  color: #dcab72;
+}
+.application .content h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0.12rem;
+}
+.application .content p {
+  line-height: 0.46rem;
+  font-size: 14px;
+}

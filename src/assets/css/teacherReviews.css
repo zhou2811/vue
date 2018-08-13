@@ -1,0 +1,111 @@
+.teacher-reviews {
+  background-color: #edf0f5;
+  color: #707070;
+  padding-bottom: 1.2rem;
+  position: relative;
+}
+.teacher-reviews .header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e4e4e4;
+}
+.teacher-reviews .main {
+  padding: 0 0.1rem;
+}
+.teacher-reviews .main h3 {
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+  line-height: 30px;
+  font-weight: 400;
+}
+.teacher-reviews .main h3 .iconfont {
+  margin-right: 6px;
+}
+.teacher-reviews .main h3 .icon-daipingjia20 {
+  color: #3295e8;
+}
+.teacher-reviews .main h3 .icon-pingjia {
+  color: #e8a432;
+}
+.teacher-reviews .main h3 .icon-shizhongclock74 {
+  color: #e83f32;
+}
+.teacher-reviews .main .box {
+  position: relative;
+  left: -0.4rem;
+  top: -0.2rem;
+  width: 2rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 16px;
+  background-color: #6692ff;
+  color: #fff;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+.teacher-reviews .main .comment,
+.teacher-reviews .main .historical-review {
+  height: 3rem;
+}
+.teacher-reviews .main .comment textarea,
+.teacher-reviews .main .historical-review textarea {
+  width: 100%;
+  height: 2.6rem;
+}
+.teacher-reviews .main .comment textarea {
+  height: 2.8rem;
+}
+.teacher-reviews .main .comment,
+.teacher-reviews .main .grade,
+.teacher-reviews .main .historical-review {
+  border-radius: 0.1rem;
+  background-color: #fff;
+  padding: 0.1rem;
+}
+.teacher-reviews .main .grade {
+  padding: 0.3rem 0.4rem;
+}
+.teacher-reviews .main .grade .grade-item {
+  display: flex;
+  margin-bottom: 0.4rem;
+  line-height: 30px;
+}
+.teacher-reviews .main .grade .grade-item:last-child {
+  margin-bottom: 0;
+}
+.teacher-reviews .main .grade .grade-item div {
+  flex: 8;
+  text-align: center;
+}
+.teacher-reviews .main .grade .grade-item span {
+  text-align: center;
+  flex: 3;
+}
+.teacher-reviews .main .grade .grade-item span:last-child {
+  text-align: left;
+}
+.teacher-reviews .footer {
+  position: fixed;
+  bottom: 0;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  width: 100%;
+  background-color: #fff;
+  text-align: right;
+  box-shadow: 0 3px 15px #707070;
+}
+.teacher-reviews .footer button {
+  height: 0.7rem;
+  line-height: 0.7rem;
+  border: 1px solid #cbcbcb;
+  border-radius: 0.4rem;
+  text-align: center;
+  width: 2rem;
+  color: #707070;
+  background-color: #fff;
+}
+.teacher-reviews .footer button:last-child {
+  margin: 0 0.3rem;
+}
+.teacher-reviews .footer button.active {
+  background-color: #6692ff;
+  color: #fff;
+}
